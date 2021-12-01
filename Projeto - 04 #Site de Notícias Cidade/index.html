@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Projeto para praticar o conceito de desenvolvimento web. Nesse projeto estão os conceoto de menu de navegação,conteúdo de três coluna,rodapé e background">
+        <meta name="author" content="Fernando Santos">
+        <meta name="generation" content="Visual Studio Code">
+        <meta name="keywords" content="projeto, revisão, conceito, udemy, desenvolvimento, web">
+        <meta http-equiv="refresh" content="#"> <!-- Refresh da página -->
+        <link rel="author" href="#">
+        <title>Notícias Cidade - Seu site de notícias</title>
+        <!-- CSS Externo -->
+        <link rel="stylesheet" href="css/folhaEstilo.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/png" href="imagens/detalhe-topo.png">
+    </head> <!-- Cabeça -->
+    <body id="tres-colunas" id="home">
+        
+        <!-- início do conteiner -->
+        <div id="conteiner">
+
+            <!-- início Top -->
+            <div id="topo">
+                <h1 class="logo">Notícias Cidade</h1> <!-- Logo do site -->
+                <ul id="navegacao">
+                    <li class="primeiro">
+                        <a id="home" href="index.html">Home</a>
+                    </li> <!-- Página Home -->
+                    <li>
+                        <a id="brasil" href="#">Brasil</a>
+                    </li> <!-- Página Brasil -->
+                    <li>
+                        <a id="internacional" href="#">Internacional</a>
+                    </li> <!-- Página Internacional -->
+                    <li>
+                        <a id="economia" href="#">Economia</a>
+                    </li> <!-- Página Economia -->
+                    <li>
+                        <a id="saude" href="#">Saúde</a>
+                    </li> <!-- Página Saúde -->
+                    <li>
+                        <a id="ciencia" href="#">Ciência</a>
+                    </li> <!-- Página Ciência -->
+                    <li>
+                        <a  id="fotos" href="#">Fotos</a>
+                    </li> <!-- Página Fotos -->
+                </ul> <!-- Menu de navegação horizontal -->
+            </div>
+            <!-- Fim do Topo -->
+
+            <!-- Início do conteúdo -->
+            <div id="conteudo">
+
+                <div id="primario">
+
+                    <div class="caixa destaque">
+                        <h2>Destaque</h2>
+                        <div class="caixa-conteudo">
+                            
+                            <h3>Nova legislação</h3>
+                            <img src="imagens/taxi.jpg" class="imagem-principal" alt="" width="100%">
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#">Leia mais</a>
+
+                        </div>
+                    </div>
+
+                    <div class="caixa destaque">
+                        <h2>Mundo</h2>
+                        <div class="caixa-conteudo">
+                            
+                            <ul id="lista-noticias">
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" width="80">
+                                        <h4>Nova Tecnologia</h4>
+                                        <p>Lorem ipsum dolor sit amet.</p> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" width="80">
+                                        <h4>Nova Tecnologia</h4>
+                                        <p>Lorem ipsum dolor sit amet.</p> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="imagens/tecnologia.jpg" width="80">
+                                        <h4>Nova Tecnologia</h4>
+                                        <p>Lorem ipsum dolor sit amet.</p> 
+                                    </a>
+                                </li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div id="secundario">
+                   
+                    <div class="caixa destaque entrevista">
+                        <h2>Última entervista</h2>
+                        <div class="caixa-conteudo">
+                            
+                            <h3>Entrevista com Felipe Silva</h3>
+                            <img src="imagens/doutor.jpg" class="imagem-principal" alt="" width="100%">
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <a href="#">Leia mais</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Início da lateral -->
+                <div id="lateral">
+                    <div class="caixa">
+                        <h2>Entrevista</h2>
+                        <div class="caixa-conteudo">
+                            <!-- Lista -->
+                            <ul>
+                                <li><a href="#">José Almeida</a></li>
+                                <li><a href="#">Felipe Silva</a></li>
+                                <li><a href="#">Renato Rodrigues</a></li>
+                                <li><a href="#">Abelardo Silveira</a></li>
+                                <li><a href="#">André Carlos</a></li>
+                                <li><a href="#">Márcio Mello</a></li>
+                                <li><a href="#">João Pedro</a></li>
+                                <li><a href="#">Fernando Weiss</a></li>
+                            </ul>
+                            <!-- Fim lista -->
+                        </div>
+                    </div>
+
+                    <div class="caixa">
+                        <h2>News</h2>
+                        <div class="caixa-conteudo">
+                            <form action="#" method="post"> 
+                                <div>
+                                    <label for="txtEmail">E-mail:</label>
+                                    <input type="email" name="campoEmail" placeholder="Digite seu email" id="txtEmail">
+                                </div>
+                                <!-- Botão -->
+                                <div>
+                                    <input class="submit" type="submit" value="cadastrar">
+                                </div>
+                                <!-- Fim Botão-->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim da lateral -->
+
+            </div>
+            <!-- Fim do conteúdo -->
+
+        </div>
+        <!-- Fim do conteiner --> 
+
+        <!-- Início do rodapé -->
+        <div id="conteiner-rodape">
+            <div id="rodape">
+                &copy; Copyright 2000-2021 Notícias cidade
+            </div>    
+        </div>
+        <!-- Final do rodapé -->
+
+    </body> <!-- Corpo -->
+</html>

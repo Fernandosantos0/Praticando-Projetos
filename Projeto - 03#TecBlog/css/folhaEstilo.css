@@ -1,0 +1,137 @@
+@charset "utf-8"; /* Codificação de caractere Unicode */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+/* Variável */
+:root {
+    --headerFundo: #f7b600;
+}
+
+/* Cor padrão para todos os link */
+a:link , a:visited , h3{
+    color: var(--headerFundo);
+    text-decoration: none;
+}
+
+/* Topo do site (Cabeçalho da página + menu de navegação) */
+div#header {
+    background: var(--headerFundo);
+    width: 100%;
+    text-align: center;
+}
+
+div#header h1 {
+    padding: 26px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.corPreto {
+    color: rgba(0, 0, 0, 0.747);
+}
+
+.corBranco {
+    color: whitesmoke;
+}
+
+div#header div#menu {
+    padding-bottom: 16px;
+}
+
+div#header div#menu li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 16px;
+}
+
+div#menu a:link , div#menu a:visited {
+    color: rgb(255, 255, 255);
+    margin-right: 15px;
+}
+
+div#menu a:hover {
+    background: rgb(255, 255, 255);
+    color: #f7b600;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+/* Conteúdo da página */
+.time-poster {
+    font-size: 0.8em;
+}
+
+div#conteudo {
+    width: 980px;
+    margin: 30px auto;
+}
+
+div#poster {
+    box-shadow: border-box;
+    width: 70%;
+    float: left;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin: 15px auto 0;
+}
+
+.postagem {
+    background: blanchedalmond;
+    padding: 15px;
+}
+
+/* Conteúdo lateral (lado direito) */
+div#ladoDireito {
+    box-shadow: border-box;
+    width: 25%;
+    margin-left: 5%;
+    float: right;
+    box-sizing: border-box;
+}
+
+div.aside h4 {
+    background: #CCC;
+    color: #565656;
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+div.aside {
+    background: blanchedalmond;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+div.aside a {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rodapé */
+div#rodape {
+    text-align: center;
+    padding: 15px 0px;
+    width: 70%;
+    margin: 15px auto 0;
+    background: #ddd;
+}
+
+.limpar {
+    clear: both;
+}

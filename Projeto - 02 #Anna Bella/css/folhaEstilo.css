@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* Variável CSS */
+:root {
+    --fundoE: rgb(179, 164, 164); 
+}
+
+/* Interface da página */
+body {
+    background: #d2d2c1 url(../imagens/fundo.png);
+    font: 16px arial, helvetica, sans-serif;
+}
+
+div#interface {
+    width: 80%;
+    background: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px #000;
+}
+ 
+div#header img {
+    width: 100%;
+}
+
+/* Menu de navegação da página */
+div#header > div#menu {
+    background: var(--fundoE);
+    padding: 4px 0px;
+    width: 100%;
+} 
+
+div#menu a {
+    text-decoration: none;     
+    color: rgb(40, 40, 100);
+    font: arial;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+div#menu li {
+    display: inline;
+} 
+
+/* Conteúdo */
+#conteudo h2 {
+    color: seagreen;
+}
+
+#conteudo p {
+    font-size: 0.9em;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+#conteudo img {
+    border: 10px solid rgba(0, 0, 0, 0.363)
+}
+
+/* Rodapé */
+div#rodape {
+    text-align: center;
+    padding: 3px 0;
+    width: 80%;
+}
